@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d789c4;
+            display: flex;
+            flex-direction: column;
+        }
+
+        nav {
+            background-color: #e39cc2; 
+            padding: 10px;
+            position: fixed; 
+            top: 0;
+            left: 0;
+            right: 0; 
+            display: flex;
+            justify-content: flex-end; 
+            gap: 10px;
+            z-index: 1000; 
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff; 
+            font-weight: bold;
+            padding: 5px 10px; 
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 80%;
+            margin: 80px auto 0; 
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            color: #333;
+        }
+
+        .service-card {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .service-card h2 {
+            color: #2c3e50;
+        }
+
+        .service-card p {
+            color: #555;
+        }
+
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/projects">Projects</a>
+        <a href="/services">Services</a>
+        
+    </nav>
+
+    <div class="container">
+        <h1>Our Services</h1>
+
+        <div class="service-card">
+            <h2>Product Sourcing</h2>
+            <p>We help you find the best products from trusted suppliers. 
+            Our team ensures every item meets quality standards, bringing
+            you closer to reliable and high-grade merchandise.</p>
+        </div>
+
+        <div class="service-card">
+            <h2>Custom Orders</h2>
+            <p>Need something specific? We offer custom ordering options 
+            to meet your unique requirements. Just let us know what you're 
+            looking for, and we'll make it happen!</p>
+        </div>
+
+        <div class="service-card">
+            <h2>Fast & Reliable Delivery</h2>
+            <p>We understand the importance of getting your products on time. 
+            That's why we offer fast, reliable delivery to your door, so you 
+            can enjoy your purchases without any hassle.</p>
+        </div>
+
+        <div class="service-card">
+            <h2>Customer Support</h2>
+            <p>Our team is here to assist you with any queries or concerns. 
+            From product selection to post-purchase support, we're with you 
+            every step of the way.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

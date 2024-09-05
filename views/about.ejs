@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        nav {
+            background-color: #e39cc2; 
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0; 
+            display: flex; 
+            justify-content: flex-end; 
+            gap: 10px; 
+            z-index: 1000; 
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .heading {
+            text-align: center;
+            padding: 20px;
+            background-color: #e39cc2;
+            margin-top: 60px; 
+        }
+        .container {
+            padding: 20px;
+        }
+        .about {
+            display: flex; 
+            align-items: center; 
+            gap: 20px; 
+        }
+        .about-image img {
+            max-width: 100%; 
+            height: auto;
+            border-radius: 8px; 
+        }
+        .about-content {
+            flex: 1; 
+        }
+        .about-content p {
+            margin: 0; 
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/projects">Projects</a>
+        <a href="/services">Services</a>
+        
+    </nav>
+
+    <div class="heading">
+        <h1>About Us</h1>
+        <p>Create joy and sell more</p>
+    </div>
+    <div class="container">
+        <section class="about">
+            <div class="about-content">
+                <p>We are a passionate team committed to providing our 
+                customers with the finest products, handpicked and carefully 
+                curated to meet your everyday needs. Whether you're looking 
+                for the freshest produce, high-quality merchandise, or unique 
+                artisanal items, we strive to offer a shopping experience that 
+                is both enjoyable and trustworthy. We believe in building long-
+                lasting relationships with our customers, offering exceptional 
+                service and products that enhance your life. </p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
